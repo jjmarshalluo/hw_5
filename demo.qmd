@@ -32,7 +32,7 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 mtcars %>% 
-  ggplot(aes(mpg, wt)) +
+  ggplot(aes(mpg, gear)) +
   geom_point()
 
 ```
